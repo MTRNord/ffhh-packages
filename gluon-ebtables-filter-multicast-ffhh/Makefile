@@ -6,7 +6,7 @@ PKG_RELEASE:=1
 
 PKG_BUILD_DIR := $(BUILD_DIR)/$(PKG_NAME)
 
-include $(INCLUDE_DIR)/package.mk
+include $(INCLUDE_DIR)/gluon.mk
 
 define Package/gluon-ebtables-filter-multicast-ffhh
   SECTION:=gluon
